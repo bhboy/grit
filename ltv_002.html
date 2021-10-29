@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>담볻인정비율</title>
+</head>
+
+<body>
+  <div class="ltv">
+
+    <h3>담보인정비율(LTV) 계산</h3>
+    
+    <div style="background-color: #eee; padding: 10px">
+      <form>
+        <fieldset style="margin: 10px;">
+          <input type="radio" name="rdb_01" value="html" checked> 공동주택(아파트) <br>
+          <input type="radio" name="rdb_01" value="css"> 기타주택 <br>
+          <input type="radio" name="rdb_01" value="java"> 상가
+        </fieldset>
+    
+        <fieldset style="margin: 10px;">
+          <input type="radio" name="rdb_02" value="html" checked> 서울 <br>
+          <input type="radio" name="rdb_02" value="css"> 수도권(세종시 포함) <br>
+          <input type="radio" name="rdb_02" value="java"> 광역시 <br>
+          <input type="radio" name="rdb_02" value="cpp"> 기타
+        </fieldset>
+        
+        <div class="div-wrap" style="margin: 10px;" >
+          <div style="text-align: right; width: 90px; display: inline-block;"> 
+            <label>대출금액 :</label><br>
+            <label>담보가치 :</label><br>
+            <label>선순위채권 :</label><br>
+            <label>방갯수 :</label>
+          </div>
+
+          <div style="width: 180px; display: inline-block">
+            <input type="text" name="in_01"><br>
+            <input type="text" name="in_02"><br>
+            <input type="text" name="in_03"><br>
+            <input type="text" name="in_04"><br>
+          </div>
+        </div>
+    </div>
+
+    <div style="margin: 10px;" >
+      <input type="submit">
+    </div>
+
+    </form>
+  
+  </div>
+
+</body>
+</html>
